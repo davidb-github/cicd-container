@@ -1,7 +1,7 @@
 const express = require("express");
 const app = express();
 
-app.get("/", (req, res) => res.send("Hello from AWS ECS demo1!"));
+app.get("/", (req, res) => res.send("Hello from AWS Elastic Container Service - demo1!"));
 
 app.get("/health", (req, res) => {
   res.status(200);
